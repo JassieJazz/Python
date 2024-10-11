@@ -12,10 +12,10 @@ def calculate(res):
         op2 = int(op2)
         if not (1 <= op1 <= 10 and 1 <= op2 <= 10):
             raise ValueError("Введите целое число от 1 до 10")
-        if operator == '+':
-            return op1 + op2
-        elif operator == '-':
+        if operator == '-':
             return op1 - op2
+        elif operator == '+':
+            return op1 + op2
         elif operator == '*':
             return op1 * op2
         elif operator == '/':
