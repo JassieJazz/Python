@@ -1,3 +1,4 @@
+#  Жафяров Даниил Русланович
 def calculate(res):
     try:
         parts = res.split()
